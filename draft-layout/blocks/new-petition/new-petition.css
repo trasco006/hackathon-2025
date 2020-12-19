@@ -1,0 +1,6 @@
+.new-petition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 134px auto 0;
+}

@@ -1,0 +1,43 @@
+.button_new-petition {
+  background-color: #2F80ED;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0 0;
+
+}
+
+
+/* .popup__form-button {
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  
+  
+  transition: ease-in-out 300ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 0;
+  margin-top: 45px;
+}
+
+@media (min-width: 768px) {
+  .popup__form-button {
+    font-size: 18px;
+    line-height: 1.22;
+    margin-top: 48px;
+  }
+}
+
+.popup__form-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+} */

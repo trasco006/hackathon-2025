@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./index.css">
+
+  <title>App</title>
+</head>
+
+<body>
+
+  <!--   Первый экран - добавление петиции
+ -->
+  <section class="container container_petition">
+    <header class="header">
+      <a href="index.html" target="_self">
+        <img class="header__logo" src="#" alt="Логотип">
+      </a>
+    </header>
+    <div class="new-petition">
+      <h1 class="title">Создать
+        обращение</h1>
+      <button class="button button_new-petition"><img class="button__icon" src="/draft-layout/images/plus—icon.svg"
+          alt="Кнопка добавления нового обращения"></button>
+    </div>
+  </section>
+
+  <!--   Второй экран - ввод адреса
+ -->
+  <section class="contaner container_new-address container_hide">
+    <header class="header">
+      <a href="index.html" target="_self">
+        <img class="header__logo" src="#" alt="Логотип">
+      </a>
+    </header>
+    <form class="form form_address">
+      <label class="form__label">Введите адрес</label>
+      <input class="form__input-address"></form>
+    </form>
+  </section>
+
+  <!--   Третий экран - выбор категории петиции
+-->
+  <section class="contaner container_category container_hide">
+    <header class="header">
+      <a href="index.html" target="_self">
+        <img class="header__logo" src="#" alt="Логотип">
+      </a>
+    </header>
+    <form class="form form_category">
+      <input class="form__category-address-window" placeholder="Адрес, введённый пользователем"></input>
+      <label class="form__label form__label_category">Выберите категорию</label>
+      <div>
+        <label class="form__category-label">Дороги</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">Дураки</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">Что делать</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">Улица фонарь</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">До водки охотники</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">Документы-бумажки</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <div>
+        <label class="form__category-label">Братья наши меньшие</label>
+        <input type="checkbox" class="form__category-checkbox"></input>
+      </div>
+      <button class="button button_category">Продолжить</button>
+    </form>
+  </section>
+
+  <!-- Четвёртый экран - выбор фото
+ -->
+  <section class="contaner container_photo container_hide">
+    <header class="header">
+      <a href="index.html" target="_self">
+        <img class="header__logo" src="#" alt="Логотип">
+      </a>
+    </header>
+    <form class="form__add-photo">
+      <input class="form__photo-address-window" placeholder="Адрес и категория, введённые пользователем"></input>
+      <button class="button button_add-photo">Добавить фото</button>
+      <button class="button button_no-photo">Продолжить без фото</button>
+    </form>
+  </section>
+
+  <!-- Пятый экран - добавить описание
+ -->
+  <section class="contaner container_description container_hide">
+    <header class="header">
+      <a href="index.html" target="_self">
+        <img class="header__logo" src="#" alt="Логотип">
+      </a>
+    </header>
+    <div class="form__add-description-background">
+      <form class="form__add-description">
+        <input class="form__description-window" placeholder="Адрес и категория, введённые пользователем"></input>
+        <div class="form__description-photoes-container">
+          <img src="/draft-layout/images/pic.jpg" alt="" class="form__add-description-image">
+          <p class="form__add-description-more-photoes-text">Добавить ещё</p>
+        </div>
+    </div>
+    <button class="button button_add-description">Добавить описание</button>
+    </form>
+
+  </section>
+  <script src="/draft-layout/script/script.js"></script>
+</body>
+
+</html>

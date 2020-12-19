@@ -1,0 +1,8 @@
+.form__input-address {
+  width: 100%;
+  padding: 16px;
+  margin: 0 auto;
+  border-radius: 8px;
+  border: 1px solid #BDBDBD;
+  box-sizing: border-box;
+}

@@ -1,0 +1,7 @@
+.container_petition {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ /*  top: 0;
+  left: 0; */
+}
