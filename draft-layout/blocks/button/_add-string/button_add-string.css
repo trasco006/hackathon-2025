@@ -1,0 +1,10 @@
+.button_add-string {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  padding: 16px 0;
+  margin: 16px auto 20px;
+  box-sizing: border-box;
+  background-color: #2F80ED;
+  color: white;
+}

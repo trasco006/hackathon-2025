@@ -1,0 +1,7 @@
+.container__strings-list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 320px;
+}

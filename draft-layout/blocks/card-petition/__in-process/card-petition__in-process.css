@@ -1,0 +1,7 @@
+.card-petition__in-process {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2;
+  text-transform: uppercase;
+  color: #2F80ED;
+}

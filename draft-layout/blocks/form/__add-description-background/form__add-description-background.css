@@ -1,6 +1,7 @@
 .form__add-description-background {
-  width: 320px;
-  height: 292px;
+  max-width: 320px;
+  width: 100%;
+  padding: 5px;
   margin: 20px auto;
   background: #FFFFFF;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.03);

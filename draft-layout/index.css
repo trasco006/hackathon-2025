@@ -1,27 +1,57 @@
 @import url("/draft-layout/normalize.css");
 @import url("/draft-layout/blocks/header/header.css");
+@import url("/draft-layout/blocks/header/__styles-off/header__styles-off.css");
 @import url("/draft-layout/blocks/header/__logo/header__logo.css");
+@import url("/draft-layout/blocks/header/__petitions-counter/header__petitions-counter.css");
+@import url("/draft-layout/blocks/header/__score-text-wrap/header__score-text-wrap.css");
+@import url("/draft-layout/blocks/header/__score/header__score.css");
+@import url("/draft-layout/blocks/header/__scrore-text/header__scrore-text.css");
+
 
 @import url("/draft-layout/blocks/container/container.css");
 @import url("/draft-layout/blocks/container/_petition/container_petition.css");
 @import url("/draft-layout/blocks/container/_new-address/container_new-address.css");
 @import url("/draft-layout/blocks/container/_category/container_category.css");
 @import url("/draft-layout/blocks/container/_description/container_description.css");
-@import url("/draft-layout/blocks/container/_hide/container_hide.css");
+@import url("/draft-layout/blocks/container/__strings-list/container__strings-list.css");
+@import url("/draft-layout/blocks/container/__string-card/container__string-card.css");
+@import url("/draft-layout/blocks/container/__string-text/container__string-text.css");
+@import url("/draft-layout/blocks/container/_submit-petition/container_submit-petition.css");
+@import url("/draft-layout/blocks/container/_confirmation/container_confirmation.css");
+
+
 @import url("/draft-layout/blocks/new-petition/new-petition.css");
+
 @import url("/draft-layout/blocks/title/title.css");
+@import url("/draft-layout/blocks/title/_new-petition/title_new-petition.css");
+@import url("/draft-layout/blocks/title/_confirmation/title_confirmation.css");
+
+
+
+
+
 @import url("/draft-layout/blocks/button/button.css");
 @import url("/draft-layout/blocks/button/_new-petition/button_new-petition.css");
+@import url("/draft-layout/blocks/button/_address/button_address.css");
+
 @import url("/draft-layout/blocks/button/_add-photo/button_add-photo.css");
 @import url("/draft-layout/blocks/button/_no-photo/button_no-photo.css");
 @import url("/draft-layout/blocks/button/_category/button_category.css");
 @import url("/draft-layout/blocks/button/_add-description/button_add-description.css");
+@import url("/draft-layout/blocks/button/_add-string/button_add-string.css");
+@import url("/draft-layout/blocks/button/_submit-petition/button_submit-petition.css");
+@import url("/draft-layout/blocks/button/_check-other-petitions/button_check-other-petitions.css");
+@import url("/draft-layout/blocks/button/_new-petition-s/button_new-petition-s.css");
+
+
 @import url("/draft-layout/blocks/form/form.css");
 @import url("/draft-layout/blocks/form/_address/form_address.css");
 @import url("/draft-layout/blocks/form/_category/form_category.css");
 @import url("/draft-layout/blocks/form/__input-address/form__input-address.css");
+
 @import url("/draft-layout/blocks/form/__label/form__label.css");
 @import url("/draft-layout/blocks/form/__label/_category/form__label_category.css");
+
 @import url("/draft-layout/blocks/form/__category-address-window/form__category-address-window.css");
 @import url("/draft-layout/blocks/form/__category-checkbox/form__category-checkbox.css");
 @import url("/draft-layout/blocks/form/__photo-address-window/form__photo-address-window.css");
@@ -32,3 +62,24 @@
 @import url("/draft-layout/blocks/form/__description-photoes-container/form__description-photoes-container.css");
 @import url("/draft-layout/blocks/form/__add-description-image/form__add-description-image.css");
 @import url("/draft-layout/blocks/form/__add-description-more-photoes-text/form__add-description-more-photoes-text.css");
+@import url("/draft-layout/blocks/form/__submit-petition/form__submit-petition.css");
+@import url("/draft-layout/blocks/form/__submit-petition-window/form__submit-petition-window.css");
+@import url("/draft-layout/blocks/form/__add-string/form__add-string.css");
+@import url("/draft-layout/blocks/form/__submit-petition-background/form__submit-petition-background.css");
+
+@import url("/draft-layout/blocks/card-petition/card-petition.css");
+@import url("/draft-layout/blocks/card-petition/__address/card-petition__address.css");
+@import url("/draft-layout/blocks/card-petition/__category/card-petition__category.css");
+@import url("/draft-layout/blocks/card-petition/__data/card-petition__data.css");
+@import url("/draft-layout/blocks/card-petition/__in-process/card-petition__in-process.css");
+@import url("/draft-layout/blocks/card-petition/__like-button/card-petition__like-button.css");
+@import url("/draft-layout/blocks/card-petition/__string/card-petition__string.css");
+
+
+
+
+
+
+
+
+@import url("/draft-layout/blocks/container/_hide/container_hide.css");
