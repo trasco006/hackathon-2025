@@ -1,0 +1,6 @@
+.main-quote{
+    width: 290px;
+    height: 272px;
+    margin: 11px 55px 16px 15px ;
+    background-image: url(../../images/quote.svg);
+}

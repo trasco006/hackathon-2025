@@ -1,0 +1,11 @@
+.main__quote{
+    max-width: 262px;
+    margin: 0 15px 0 83px;
+    font-family: "Spectral", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-align: left;
+}

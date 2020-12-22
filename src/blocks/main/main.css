@@ -1,0 +1,9 @@
+@import url(./__quote/main__quote.css);
+@import url(./__add-request/main__add-request.css);
+@import url(./__add-request-text/main__add-request-text.css);
+@import url(./__add-request-border/main__add-request-border.css);
+.main{
+    width: 100%;
+    color:#42424F;
+    position: relative;
+}
