@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trasco006/hackathon-2025/static/css/main.5e9a8174.chunk.css",
+    "main.js": "/trasco006/hackathon-2025/static/js/main.2868f48e.chunk.js",
+    "main.js.map": "/trasco006/hackathon-2025/static/js/main.2868f48e.chunk.js.map",
+    "runtime-main.js": "/trasco006/hackathon-2025/static/js/runtime-main.398cb1b3.js",
+    "runtime-main.js.map": "/trasco006/hackathon-2025/static/js/runtime-main.398cb1b3.js.map",
+    "static/js/2.77be470f.chunk.js": "/trasco006/hackathon-2025/static/js/2.77be470f.chunk.js",
+    "static/js/2.77be470f.chunk.js.map": "/trasco006/hackathon-2025/static/js/2.77be470f.chunk.js.map",
+    "static/js/3.fce589a0.chunk.js": "/trasco006/hackathon-2025/static/js/3.fce589a0.chunk.js",
+    "static/js/3.fce589a0.chunk.js.map": "/trasco006/hackathon-2025/static/js/3.fce589a0.chunk.js.map",
+    "index.html": "/trasco006/hackathon-2025/index.html",
+    "static/css/main.5e9a8174.chunk.css.map": "/trasco006/hackathon-2025/static/css/main.5e9a8174.chunk.css.map",
+    "static/js/2.77be470f.chunk.js.LICENSE.txt": "/trasco006/hackathon-2025/static/js/2.77be470f.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/trasco006/hackathon-2025/static/media/quote.b9565b7d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.398cb1b3.js",
+    "static/js/2.77be470f.chunk.js",
+    "static/css/main.5e9a8174.chunk.css",
+    "static/js/main.2868f48e.chunk.js"
+  ]
+}
