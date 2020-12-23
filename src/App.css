@@ -8,10 +8,9 @@
 @import url(./blocks/request-filter/request-filter.css);
 @import url(./blocks/card/card.css);
 @import url(./blocks/main-quote/main-quote.css);
-
+@import url(./blocks/popup/popup.css);
 .App {
     text-align: center;
     background-color: #282c34;
-    width: 100vw;
-    height: 100vh;
+    transition: all 1s ease-out;
 }

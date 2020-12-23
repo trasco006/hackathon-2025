@@ -2,10 +2,6 @@ import React from 'react'
 import Card from '../Card/Card'
 
 export class Main extends React.Component {
-  constructor() {
-    super();
-  }
-
   render() {
     return (
       <div className="main">
@@ -16,16 +12,29 @@ export class Main extends React.Component {
           <p className="main__add-request-text">Добавить заявку</p>
           <div className="main__add-request-border"/>
         </button>
-        <div className="request-filter">
-          <p>Все обращения <span className="request-filter__location">Минск</span></p>
-        </div>
-        <div className="elements">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-        </div>
+
+        {!this.props.region ?
+          <div className="request-filter">
+            <p>Выберите
+              <span onClick={this.props.openPopup} className="request-filter__location">Регион</span>
+            </p>
+          </div> :
+          <div>
+            <div className="request-filter">
+              <p>Все обращения
+                <span onClick={this.props.openPopup}
+                      className="request-filter__location">{this.props.region}</span>
+              </p>
+            </div>
+            <div className="elements">
+              <Card/>
+              <Card/>
+              <Card/>
+              <Card/>
+            </div>
+          </div>}
       </div>
     )
   }
+
 }
