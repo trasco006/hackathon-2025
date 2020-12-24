@@ -1,0 +1,11 @@
+.address-screen__title {
+    text-transform: uppercase;
+    margin: 0 0 32px 0;
+    padding: 0;
+    text-align: left;
+    font-family: "Montserrat", "Helvetica", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+}

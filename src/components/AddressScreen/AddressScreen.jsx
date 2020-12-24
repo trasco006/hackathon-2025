@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default class PopupWitchForm extends React.Component {
+export default class AddressScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,20 +25,19 @@ export default class PopupWitchForm extends React.Component {
 
   render() {
     return (
-      <div className="popup popup_opened">
+      <div className="address-screen">
         <form name=""
-              className={`popup__form popup__form-${this.props.name}`}>
-          <button className="popup__close-button"
-                  onClick={this.props.onClose}>X
-          </button>
-          <p className="popup__title">{this.props.title}</p>
+              className={`address-screen__form`}>
+          <button className="address-screen__close-button"
+                  onClick={this.props.onClose}/>
+          <p className="address-screen__title">Введите город</p>
           <input type="text"
                  maxLength={10}
-                 className="popup__input"
+                 className="address-screen__input"
                  placeholder="Введите город"
                  onInput={this.handleLocationName}/>
-          <button className="popup__submit-button"
-                  onClick={this.handleSubmit}>Сохранить
+          <button className="address-screen__submit-button"
+                  onClick={this.handleSubmit}>Отправить
           </button>
         </form>
         <div className="popup__overlay"/>

@@ -1,0 +1,20 @@
+.address-screen__submit-button {
+    height: 56px;
+    width: 320px;
+    border: 1px solid #0F0E0E;
+    cursor: pointer;
+    font-family: "Montserrat", "Helvetica", "Helvetica", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0F0E0E;
+}
+.address-screen__submit-button:hover {
+    color: rgba(148, 148, 148, 1);
+    border-color: rgba(148, 148, 148, 1);
+}
+
+
