@@ -1,0 +1,10 @@
+.card__poem{
+    font-family: "Spectral", "serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid #F1F1F1;
+    margin: 0 0 20px 0;
+    padding: 0;
+}

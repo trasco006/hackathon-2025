@@ -1,0 +1,18 @@
+@import url(./__title/card__title.css);
+@import url(./__address/card__adress.css);
+@import url(./__image/card__image.css);
+@import url(./__poem/card__poem.css);
+@import url(./__footer/card__footer.css);
+@import url(./__status/card__status.css);
+@import url(./__status-text/card__status-text.css);
+@import url(./__likes/card__likes.css);
+@import url(./__like-ico/card__like-ico.css);
+@import url(./__like/card__like.css);
+.card{
+    max-width: 330px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    border: 1px solid #000000;
+    text-align: left;
+}

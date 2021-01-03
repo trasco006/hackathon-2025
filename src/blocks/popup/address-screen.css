@@ -1,0 +1,18 @@
+@import url(./__form/address-screen__form.css);
+@import url(./__input/address-screen__input.css);
+@import url(./__close-button/address-screen__close-button.css);
+@import url(./__submit-button/address-screen__submit-button.css);
+@import url(./__title/address-screen__title.css);
+.address-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

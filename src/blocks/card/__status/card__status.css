@@ -1,0 +1,11 @@
+.card__status{
+    width: 107px;
+    height: 27px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

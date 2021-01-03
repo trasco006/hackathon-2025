@@ -1,0 +1,8 @@
+@import url(./__quote/main__quote.css);
+@import url(./__add-request/main__add-request.css);
+
+.main{
+    width: 100%;
+    color:#42424F;
+    position: relative;
+}

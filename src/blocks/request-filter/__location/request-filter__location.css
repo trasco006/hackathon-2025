@@ -1,0 +1,9 @@
+.request-filter__location {
+    color: #2F80ED;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.request-filter__location:hover {
+    color: rgba(189, 28, 28, 1);
+}

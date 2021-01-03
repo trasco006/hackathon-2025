@@ -1,0 +1,11 @@
+.card__status-text{
+    font-family: "Spectral", serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}

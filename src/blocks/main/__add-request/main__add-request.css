@@ -1,0 +1,17 @@
+.main__add-request{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 1px solid rgba(207, 75, 75, 1);
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    z-index: 5;
+    background-image: url("./../../../images/add-request-button.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__add-request:hover {
+    background-color: #F6F6F6;
+}
